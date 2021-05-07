@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+    margin: 25px;
+    font-size: 35px;
+
+}
+
+.texto{
+    margin: 4px;
+    background-color: aqua;
+    font-size: 20px;
+    justify-content: left;
+}
+
+.imagen{
+    width: 45px;
+
+}
+
+
+h2{
+    font-size: 25px;
+    text-align: left;
+    margin: 10px;
+}
+/*TRANSCICIONES*/
+.cuadro{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    margin: 45px;
+
+    transition: background-color 1s ease;
+    
+}
+
+.cuadro:hover{
+    background-color: seagreen;
+}
+
+
+
+.cu1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 45px;
+
+    transition: all 4s ease ;
+}
+
+/*SCALE AUMENTA EL TAMAÑO*/
+.cu1:hover{
+    transform: scale(2,2);
+}
+
+
+.cu2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 45px;
+
+    transition: all 5s ease;
+}
+
+/*ROTE CON GRADOS*/
+.cu2:hover{
+    transform: rotate(55deg);
+}
+
+
+.cu3{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 45px;
+
+    transition: width 05s ease;
+}
+/*CRECE EL ANCHO*/
+.cu3:hover{
+    width: 500px;
+}
